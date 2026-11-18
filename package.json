@@ -1,0 +1,19 @@
+{
+  "name": "tower-extension-messages",
+  "private": true,
+  "type": "module",
+  "description": "Messages, an extension of the tower (https://github.com/RegiByte/the-tower): workers message each other by callsign across runtimes.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "types": "tower types .",
+    "typecheck": "tsc -p .",
+    "test": "node --test test/*.test.ts",
+    "check": "tower extensions check ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}

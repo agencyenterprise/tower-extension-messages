@@ -1,0 +1,14 @@
+{
+  "provides": "messages",
+  "major": 1,
+  "names": [
+    "verbs.send",
+    "facts.sent",
+    "words.send",
+    "words.send.--to",
+    "words.send.--text",
+    "words.send.stdin.text",
+    "words.send.positional.0.to",
+    "words.send.print.said"
+  ]
+}
